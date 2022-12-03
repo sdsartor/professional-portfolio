@@ -1,33 +1,37 @@
-.one {
-    color: lightblue
-    background-color: brown;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
   
-  .two {
-    color: white;
-    background-color: black;
-    margin: 10px;
-    width: 150px;
-    height: 70px;
-    display: inline-block;
-  }
-  .three {
-    color: white;
-    background-color: brown;
-    margin: 10px;
-    width: 75px;
-  }
-  .four {
-    color: white;
-    background-color: brown;
-    margin: 10px;
-    width: 100px;
-  }
-  
-  .five {
-    background-color: brown;
-  }
+}
+body {
+  text-align: center;
+background-color: rgb(119, 20, 20);
+}
+.header {
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-style: oblique;
+  background-color:lavender;
+  color:darkslategray;
+  font-size: x-small;
+}
+main {
+image-rendering: crisp-edges;
+  display: flex; 
+  height: 900px;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  height: 100px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  image-rendering: crisp-edges;
+  flex-wrap: wrap;
+}
+
