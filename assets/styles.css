@@ -1,25 +1,31 @@
+:root {
+ --dark: darkslategray;
+--light: olive;
+}
 * {
   padding: 0px;
   margin: 0px;
-  background-color: navy;
+  background-color: var(--dark)
 }
 head{
 justify-content: center;
 }
 header {
   font: 100;
+  justify-content: center;
 
 }
 nav {
   justify-content: space-evenly;
   display: flex;
-  color: olive;
+  color: var(--light);
   line-height: 5;
 }
 body {
   text-align: center;
 background-color: royalblue(10px, 20px, 20px);
-color: olive;
+color: var(--light);
+;
 }
 .header {
   font-family:'Times New Roman', Times, serif;
@@ -39,19 +45,51 @@ flex-direction: column;
 }
  .justify-center {
   justify-content: center;
- }
- .code-card {
-  display: inline-block;
-  max-width: fit-content;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin-left: 200px;
-  position: relative;
-  padding: 2px;
+
 }
  img {
-  width: 200px;
-  display: flex;
+  width: 400px;
+  height: 200px;
+  position: relative;
+ 
+}
+h1 {
+  color: var(--light);
+}
+h2 {
+display: flex;
+flex-wrap: wrap-reverse;
+flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  
+}
 
-;
+div {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 300px;
+
+.child {
+  flexbox: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: var(--dark);
+}
+
+#divpic {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+.photoDesc {
+  font-size: 1.5em;
 }
