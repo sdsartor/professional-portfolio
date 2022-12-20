@@ -3,9 +3,9 @@
 --light: olive;
 }
 * {
-  padding: 0px;
-  margin: 0px;
-  background-color: var(--dark)
+  padding: 5px;
+  margin: 1px;
+  background-color: var(--dark);
 }
 head{
 justify-content: center;
@@ -20,76 +20,39 @@ nav {
   display: flex;
   color: var(--light);
   line-height: 5;
+  position: relative;
+}
+main{
+flex-wrap: wrap;
+position: relative;
+justify-content: center;
 }
 body {
   text-align: center;
 background-color: royalblue(10px, 20px, 20px);
 color: var(--light);
-;
+
 }
 .header {
   font-family:'Times New Roman', Times, serif;
   font-style: oblique;
-  background-color:lavender;
+  background-color: goldenrod;
   color:darkslategray;
   font-size: x-small;
-}
-.card-column {
-margin: 0px;
-justify-content: center;
-max-width: 90%;
-display: flex;
-}
-.card {
-flex-direction: column;
-}
- .justify-center {
-  justify-content: center;
-
+  margin-bottom: 20px;
 }
  img {
+  margin-top: 25px;
   width: 400px;
   height: 200px;
   position: relative;
- 
 }
 h1 {
   color: var(--light);
 }
-h2 {
-display: flex;
-flex-wrap: wrap-reverse;
-flex-direction: row;
-  justify-content: space-evenly;
-  position: relative;
-  
-}
-
 div {
+ 
   display: block;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-top: 300px;
-
-.child {
-  flexbox: 1 0 21%; /* explanation below */
-  margin: 5px;
-  height: 100px;
-  background-color: var(--dark);
-}
-
-#divpic {
-  height: 150px;
-  width: 150px;
-  text-align: center;
-}
-.photoDesc {
-  font-size: 1.5em;
 }
